@@ -1,0 +1,57 @@
+---
+title: "React Beginning"
+course_slides: "react-beginning.pdf"
+course_archive: "react-beginning.zip"
+chapters:
+  "Introduction to React":
+    root: "intro-to-react"
+    lectures:
+      "What is React?": "what-is-react.md"
+      "Why use React?": "why-use-react.md"
+      "Setting up a development environment": "setting-up-dev-environment.md"
+  "JSX":
+    root: "jsx"
+    lectures:
+      "What is JSX?": "what-is-jsx.md"
+      "How to write JSX code?": "how-to-write-jsx.md"
+      "JSX expressions and variables": "jsx-expressions-variables.md"
+    extras:
+      - "jsx-cheatsheet.pdf"
+      - "lab/jsx-expressions"
+      - "lab/jsx-variables"
+  "Components":
+    root: "components"
+    lectures:
+      "What are components?": "what-are-components.md"
+      "How to create components?": "how-to-create-components.md"
+      "Props and state": "props-and-state.md"
+  "React routing":
+    root: "routing"
+    lectures:
+      "Setting up react-router": "setting-up-react-router.md"
+      "Creating and rendering routes": "rendering-routes.md"
+      "Navigation and linking": "navigation-and-linking.md"
+  "Managing state":
+    root: "state"
+    lectures:
+      "What is state?": "what-is-state.md"
+      "How to manage state": "managing-state.md"
+      "Updating state and triggering re-renders": "updating-state-rerendering.md"
+  "Handling Forms in React":
+    root: "forms"
+    lectures:
+      "Handling form input data": "handling-forms.md"
+      "Controlled components": "controlled-components.md"
+      "Form validation": "form-validation.md"
+  "React Hooks":
+    root: "hooks"
+    lectures:
+      "Introduction to React hooks": "intro-to-hooks.md"
+      "useState and useEffect": "usestate-useeffect.md"
+      "Building custom Hooks": "custom-hooks.md"
+  "Handling HTTP requests":
+    root: "http-requests"
+    lectures:
+      "Fetching data with Axios": "fetching-data-with-axios.md"
+      "async/await and Promises": "async-promises.md"
+      "Handling errors": "error-handling.md"

@@ -1,0 +1,61 @@
+---
+title: "React Advanced"
+course_slides: "react-advanced.pdf"
+course_archive: "react-advanced.zip"
+chapters:
+  "Advanced Component Patterns":
+    root: "components"
+    lectures:
+      "Props and state": "props-and-state.md"
+      "Higher Order Components": "higher-order-components.md"
+      "Render Props": "render-props.md"
+      "Function as Children": "function-as-children.md"
+      "Compound Components": "compound-components.md"
+  "Advanced State Management":
+    root: "state"
+    lectures:
+      "Redux architecture": "redux-architecture.md"
+      "Creating a Redux store": "redux-store.md"
+      "Connecting React with Redux": "react-and-redux.md"
+  "React performance optimization":
+    root: "performance"
+    lectures:
+      "Performance profiling" : "profiling.md"
+      "Memoization and Memoizing hooks": "memoization.md"
+      "Lazy loading and code splitting": "lazy-loading-code-splitting.md"
+      "Server-side rendering": "server-side-rendering.md"
+  "Advanced React Routing":
+    root: "routing"
+    lectures:
+      "Nested routes": "nested-routes.md"
+      "Dynamic routing": "dynamic-routing.md"
+      "Route guards": "route-guards.md"
+      "Redux and routing": "redux-and-routing.md"
+  "Advanced Forms":
+    root: "forms"
+    lectures:
+      "Uncontrolled components": "uncontrolled-components.md"
+      "Formik": "formik.md"
+      "React Hook Form": "react-hook-form.md"
+      "Complex forms": "complex-forms.md"
+  "Advanced Hooks":
+    root: "hooks"
+    lectures:
+      "useContext": "usecontext.md"
+      "useReducer": "usereducer.md"
+      "useRef": "useref.md"
+      "Custom Hooks": "custom-hooks.md"
+  "Testing React Applications":
+    root: "testing"
+    lectures:
+      "Testing fundamentals": "testing-fundamentals.md"
+      "React testing library" : "testing-library.md"
+      "Enzyme": "enzyme.md"
+      "E2E testing": "e2e-testing.md"
+  "React Native":
+    root: "native"
+    lectures:
+      "Building mobiel applications with React Native": "mobile-applications.md"
+      "Component architecture in React Native": "component-architecture.md"
+      "Working with APIs in React Native": "working-with-apis.md"
+
